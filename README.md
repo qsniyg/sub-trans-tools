@@ -4,7 +4,7 @@ Workflow:
 
  * Upload the subtitle to a pastebin that allows viewing the raw file (such as pastebin.com)
  * Copy a link to the raw file to Google Translate
-   * For example: https://translate.google.com/translate?sl={source language}&tl={translated language}&u=https://pastebin.com/raw/...
+   * For example: `https://translate.google.com/translate?sl={source language}&tl={translated language}&u=https://pastebin.com/raw/...`
  * Copy the source code of the translated page into a text file
    * Right click->Inspect (Element) within the frame
    * Scroll up to the `<pre>` element within the iframe, right click->Store as global variable
